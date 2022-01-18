@@ -11,6 +11,13 @@ h2{
 }
 .orange-color{
     color: orange;
+    font-weight: bold;
+
+}
+.red-color{
+    color: rgb(207, 0, 0);
+    font-weight: bold;
+
 }
 .flexible-container{
     display: flex;
@@ -64,14 +71,20 @@ h2{
 }
 #SomoyTV-exp{
     border-left: 7px solid;
-    border-image: linear-gradient(purple, black);
+    border-image: linear-gradient(purple, rgb(12, 12, 95));
     border-image-slice: 1;
 
 }
 #web-dev-exp{
     border-left: 7px solid; 
-    border-image: linear-gradient(rgb(76, 250, 105), cyan);
+    border-image: linear-gradient(rgb(2, 107, 19), rgb(21, 134, 134));
     border-image-slice: 1;
+}
+#youtube-exp{
+    border-left: 7px solid; 
+    border-image: linear-gradient(rgb(194, 2, 2), black);
+    border-image-slice: 1;
+
 }
 footer p{
     text-align: center;
